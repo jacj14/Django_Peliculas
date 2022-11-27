@@ -1,0 +1,17 @@
+{% extends "base.html" %} 
+
+{% block titulo %} 
+Agregar 
+{% endblock titulo %} 
+
+{%block contenido %}
+
+<div class="card">
+  <div class="card-header">Agregar Pelicula</div>
+  <div class="card-body">
+    <h4 class="card-title">Datos de la Película</h4>
+    {% include 'peliculas/form.html' %}
+  </div>
+</div>
+
+{% endblock contenido %}
